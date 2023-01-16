@@ -9,31 +9,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="header">
         <h2 style="background-color:white; border-radius:25px; padding:10px;border:solid black">Rock, Paper, Scissors</h2>
     </div>
     <div class="user-options">
-        <div class="user-button rock">
+        <div data-value="rock" class="user-button rock" onclick="effect()">
             Rock
         </div>
-        <div class="user-button paper">
+        <div data-value="paper" class="user-button paper" onclick="effect()">
             Paper
         </div>
-        <div class="user-button scissors">
+        <div data-value="scissors" class="user-button scissors" onclick="effect()">
             Scissors
         </div>
     </div>
     <div class="result">
-            <div>Computer Choice: </div>
-            <div>User Choice: </div>
-            <div>Computer Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User Score:</div>
+            <div>Computer Choice: <span id="comp-choice"></span> </div>
+            <div>User Choice: <span id="user-choice"></span></div>
+            <div>Computer Score: <span id="comp-score"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User Score: <span id="user-score"></span></div>
     </div>
     <div class="footer">
-        Made By VishaalC
+        Copyright © 
+        <script>
+            document.write(new Date().getFullYear())
+          </script>
+           VishaalC &nbsp;
+           <a href="https://github.com/VishaalC" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
     </div>
+    <script>
+
+    </script>
     
 </body>
 </html>
