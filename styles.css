@@ -1,0 +1,97 @@
+body {
+    background-image: url("background3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: blueviolet;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: blueviolet;
+}
+
+.result {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid yellow;
+    background-color: rgba(238, 130, 238 ,0.5);
+    flex-basis: content;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    position: relative;
+    
+}
+
+.user-options {
+    display: flex;
+    gap: 100px;
+    flex: 1;
+    flex-basis: auto;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 25px;
+    border: 7px solid yellow;
+    background-color: rgba(238, 130, 238 ,0.5);
+}
+
+.user-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    min-height: 100%;
+    margin: 50px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: light;
+    font-size: large;
+    background-color: lightpink;
+    border-radius: 25px;
+    border: 5px solid black;
+}
+
+.user-button.scissors {
+    background-image: url("scissor.png");
+    background-size: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.user-button.paper {
+    background-image: url("paper.svg");
+    background-size: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.user-button.rock {
+    background-image: url("rock.svg");
+    background-size: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -65,7 +65,7 @@ function playRound (playerSelection, computerSelection) {
 // Actual game function
 function game() {
     for (let i = 0; i < 5; i++) {
-        let playerSelection = prompt("Enter your choice: ");
+        //let playerSelection = prompt("Enter your choice: ");
         computerSelection = getComputerChoice();
         console.log(playRound(playerSelection, computerSelection));
     }
