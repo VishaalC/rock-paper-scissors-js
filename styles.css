@@ -32,15 +32,19 @@ body {
 
 .result {
     display: flex;
-    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
     justify-content: center;
-    align-items: center;
+    padding: 20px;
+    height: 100px;
     border: 7px solid yellow;
     background-color: rgba(238, 130, 238 ,0.5);
-    flex-basis: content;
     font-family: 'Poppins', sans-serif;
     border-radius: 25px;
-    position: relative;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 20px;
     
 }
 
@@ -77,21 +81,21 @@ body {
 
 .user-button.scissors {
     background-image: url("scissor.png");
-    background-size: 120px;
+    background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .user-button.paper {
     background-image: url("paper.svg");
-    background-size: 120px;
+    background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .user-button.rock {
     background-image: url("rock.svg");
-    background-size: 120px;
+    background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
 }
